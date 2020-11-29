@@ -44,7 +44,7 @@ This means the sum of the Fibonacci numbers starting from `0` till `m` is given 
 
 This is a slight alternative to the previous one. Here, we are interested in finding the last digit of a partial sum fo Fibonacci Numbers. A partial sum is simply defined as the following:
 
-<!-- $$F_m + F_{m+1} + ... + F_n \\ \textrm{for any} \quad 0 \leq m \leq n$$ -->
-![fib-4](https://latex.codecogs.com/svg.latex?%5C%5CF_m%20&plus;%20F_%7Bm&plus;1%7D%20&plus;%20...%20&plus;%20F_n%20%5C%5C%20%5Ctextrm%7Bfor%20any%7D%20%5Cquad%200%20%5Cleq%20m%20%5Cleq%20n)
+<!-- $$\\F_m + F_{m+1} + ... + F_n \quad \textrm{for any} \quad 0 \leq m \leq n$$ -->
+![fib-4](https://latex.codecogs.com/svg.latex?%5C%5CF_m%20&plus;%20F_%7Bm&plus;1%7D%20&plus;%20...%20&plus;%20F_n%20%5Cquad%20%5Ctextrm%7Bfor%20any%7D%20%5Cquad%200%20%5Cleq%20m%20%5Cleq%20n)
 
 To find the last digit of such a sum, we first find the sum at the end point that is $F_n$ and subtract from it the sum of the $F_{m-1}$ term and finally take modulo 10 to get the last digit.
