@@ -22,3 +22,13 @@ The very initial works on algorithms dates back to the early 9th Century **Persi
 
 - Preliminaries
   - [Fibonacci](src/algorithms/fibonacci)
+
+### Tips for Running Tests
+
+#### Stress Tests
+
+For some algorithms and data structures it is possible a stress test is included. The stress tests are basically a never ending `while` loop to be terminated by user. Thus, when trying to run the tests for the entire repository it is required to avoid tests marked as stress tests. This is possible by running the command below:
+
+```bash
+pytest -m "not stresstest"
+```
