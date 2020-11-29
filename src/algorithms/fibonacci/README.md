@@ -32,7 +32,9 @@ To compute a huge Fibonacci number modulo `m` the Pisano period is used. The Pis
 
 To find the last digit of the sum, we first find the formula to calculate the sum itself. It turns out the following formula can be used:
 
-$$\sum_{n=0}^{m} F_n = F_{n+2} - 1$$
+<!-- $$\sum_{n=0}^{m} F_n = F_{n+2} - 1$$ -->
+![sum](https://latex.codecogs.com/svg.latex?\sum_{n=0}^{m}&space;F_n&space;=&space;F_{n&plus;2}&space;-&space;1) 
+
 
 This means the sum of the Fibonacci numbers starting from `0` till `m` is given by the nth plus term minus `1`. Now that we are able to calculate the sum, to find the last digit all we need is to find the value of the sum modulo `10`.
 
