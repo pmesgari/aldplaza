@@ -3,13 +3,6 @@ import sys
 import time
 import random
 
-'''
-Goal: calculate Fn mod m for very large n
-    S1 find the pisano period pisano(m)
-    S2 calculate r = n mod pisano(m)
-    S3 calculate Fr mod m
-'''
-
 
 def pisano(m):
     previous = 0
